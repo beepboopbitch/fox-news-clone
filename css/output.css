@@ -103,6 +103,15 @@ body, p {
   font-size: 20px;
 }
 
+.ad {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.ad img {
+  border: 1px solid black;
+}
+
 .middle {
   display: flex;
   flex-direction: row;
@@ -223,6 +232,10 @@ body, p {
 
   .bottom .grid-container {
     grid-template-columns: auto auto auto auto;
+  }
+
+  .ad {
+    display: none;
   }
 }
 @media screen and (max-width: 979px) {

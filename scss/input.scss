@@ -117,6 +117,15 @@ body, p {
   }
 }
 
+.ad {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  img {
+    border: 1px solid black;
+  }
+}
+
 .middle {
   @include flex-row;
   margin-top: 20px;
@@ -243,6 +252,9 @@ body, p {
     .grid-container {
       grid-template-columns: auto auto auto auto;
     }
+  }
+  .ad {
+    display: none;
   }
 }
 
