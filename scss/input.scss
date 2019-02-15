@@ -4,6 +4,7 @@ $fox-red: #d20f26;
 body, p {
   margin: 0;
   padding: 0;
+  background-color: lightgray;
 }
 
 // * {
@@ -18,6 +19,7 @@ body, p {
     width: 75px;
     height: 75px;
     border: 2px solid white;
+    border-radius: 3px;
     position: relative;
     right: -20px;
     top: -85px;
@@ -33,22 +35,131 @@ body, p {
     align-items: center;
     height: 50%;
     background-color: $fox-color;
-    padding-left: 120px;
+    padding-left: 110px;
     padding-right: 20px;
+    .pages {
+      a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 10px;
+      }
+    }
   }
   .headerBottom {
+    background-color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
     height: 50%;
     padding-left: 120px;
     padding-right: 20px;
+    font-size: 70%;
+    font-weight: bold;
     p {
-
+      margin-right: 15px;
+      color: $fox-red;
+      background-color: white;
     }
     a {
+      margin-left: 10px;
+      margin-right: 10px;
       text-decoration: none;
       color: $fox-color;
     }
+  }
+}
+
+.buttons {
+  .fas {
+    color: white;
+    margin-right: 10px;
+  }
+  .login {
+    background-color: #1b4e81;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    font-size: 80%;
+    padding: 7px 10px 7px 10px;
+    margin-right: 5px;
+  }
+  .watch {
+    background-color: $fox-red;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    font-size: 80%;
+    padding: 7px 10px 7px 10px;
+  }
+}
+
+.headerSmall {
+  display: none;
+  width: 100%;
+  background-color: $fox-color;
+  height: 50px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    width: 100px;
+  }
+  .fa-bars {
+    margin-left: 10px;
+    font-size: 20px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 1023px) {
+  .mainHeader {
+    .headerTop {
+      .pages {
+        .hide1 {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 979px) {
+  .mainHeader {
+    .headerTop {
+      .pages {
+        .hide2 {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 879px) {
+  .mainHeader {
+    .headerTop {
+      .pages {
+        .hide3 {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mainHeader {
+    display: none;
+  }
+  .headerSmall {
+    display: block;
+    display: flex;
+
   }
 }
