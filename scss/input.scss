@@ -130,11 +130,6 @@ body, p {
   }
 }
 
-.middle {
-  .siderbar {
-    width: 25%;
-  }
-}
 
 
 
@@ -154,6 +149,7 @@ body, p {
     }
     .mainbar {
       width: 100%;
+      margin: 0;
     }
   }
 }

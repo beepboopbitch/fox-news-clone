@@ -123,10 +123,6 @@ body, p {
   width: 100%;
 }
 
-.middle .siderbar {
-  width: 25%;
-}
-
 @media screen and (max-width: 1040px) {
   .mainHeader .headerTop .pages .hide1 {
     display: none;
@@ -137,6 +133,7 @@ body, p {
   }
   .middle .mainbar {
     width: 100%;
+    margin: 0;
   }
 }
 @media screen and (max-width: 979px) {
