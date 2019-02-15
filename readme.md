@@ -8,9 +8,13 @@
 
 _A webpage that mimics the look of a fox news webpage at several sizes using media queries._
 
-## My clone:
+## Fox News Clone:
 
 ![](img/clonefoxnews.png)
+
+## Original Site:
+
+![](img/realfoxnews.png)
 
 ## Setup
 
