@@ -156,7 +156,7 @@ body, p {
   }
   .sidebar {
     border: 1px solid lightblue;
-    margin: 120px 10px 0 5px;
+    margin: 120px 10px 450px 5px;
     width: 25%;
     background-color: white;
     .img-container {
@@ -192,6 +192,28 @@ body, p {
   }
 }
 
+.bottom {
+  background-color: $fox-color;
+  margin-top: 50px;
+  .grid-container {
+    margin: 0px 20px 0px 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 10px;
+    .grid-item {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      color: lightblue;
+      .title {
+        font-size: 20px;
+      }
+      p {
+        background-color: $fox-color;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 1040px) {
   .mainHeader {
     .headerTop {
@@ -215,6 +237,11 @@ body, p {
       h1 {
         margin-left: 10px;
       }
+    }
+  }
+  .bottom {
+    .grid-container {
+      grid-template-columns: auto auto auto auto;
     }
   }
 }
@@ -256,6 +283,11 @@ body, p {
       .grid-container {
         grid-template-columns: auto;
       }
+    }
+  }
+  .bottom {
+    .grid-container {
+      grid-template-columns: auto auto;
     }
   }
 }
