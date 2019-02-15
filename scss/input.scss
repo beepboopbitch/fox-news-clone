@@ -124,22 +124,33 @@ body, p {
     margin: 0 5px 0 10px;
     .weather {
       background-color: white;
+      border: 1px solid lightblue;
+      .weather-text {
+        margin: 5px 25px 20px 25px;
+      }
+      .text-big {
+        font-size: 30px;
+      }
     }
   }
   .sidebar {
     border: 1px solid lightblue;
-    margin: 0 10px 0 5px;
+    margin: 120px 10px 0 5px;
     width: 25%;
     background-color: white;
     .img-container {
       padding: 10px 10px 10px 10px;
+      p {
+        color: $fox-color;
+        font-weight: bold;
+      }
       .img-item {
         display: flex;
         flex-direction: row;
         border-bottom: 1px solid lightblue;
         padding: 10px 0 10px 0;
         img {
-          width: 48%;
+          width: 45%;
           height: 60px;
           margin: 5px 5px 5px 0px;
         }
@@ -161,9 +172,6 @@ body, p {
   }
 }
 
-
-
-
 @media screen and (max-width: 1040px) {
   .mainHeader {
     .headerTop {
@@ -181,6 +189,9 @@ body, p {
     .mainbar {
       width: 100%;
       margin: 0;
+      h1 {
+        margin-left: 10px;
+      }
     }
   }
 }
