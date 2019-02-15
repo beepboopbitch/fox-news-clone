@@ -1,0 +1,46 @@
+body, p {
+  margin: 0;
+  padding: 0;
+}
+
+.mainHeader {
+  height: 85px;
+  border-top: 4px solid #d20f26;
+}
+.mainHeader img {
+  margin-top: 5px;
+  width: 75px;
+  height: 75px;
+  border: 2px solid white;
+  position: relative;
+  right: -20px;
+  top: -85px;
+}
+.mainHeader .headerText {
+  width: 100%;
+  height: 100%;
+}
+.mainHeader .headerTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+  background-color: rgba(0, 51, 102, 0.99);
+  padding-left: 120px;
+  padding-right: 20px;
+}
+.mainHeader .headerBottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50%;
+  padding-left: 120px;
+  padding-right: 20px;
+}
+.mainHeader .headerBottom a {
+  text-decoration: none;
+  color: rgba(0, 51, 102, 0.99);
+}
+
+/*# sourceMappingURL=output.css.map */
