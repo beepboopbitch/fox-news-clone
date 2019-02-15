@@ -119,6 +119,21 @@ body, p {
   width: 100%;
   display: flex;
   flex-direction: row;
+  .west {
+    border: 1px solid lightblue;
+    margin-top: 20px;
+    background-color: white;
+    h2 {
+      margin-left: 10px;
+    }
+    .grid-container {
+      padding: 0 10px 20px 10px;
+      margin: 0 10px 10px 10px;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-gap: 10px;
+    }
+  }
   .mainbar {
     width: 75%;
     margin: 0 5px 0 10px;
@@ -183,6 +198,9 @@ body, p {
     }
   }
   .middle {
+    .west {
+      margin: 20px 20px 20px 20px;
+    }
     .sidebar {
       display: none;
     }
