@@ -114,10 +114,26 @@ body, p {
   }
 }
 
+.middle {
+  width: 100%;
+  .mainbar {
+    width: 75%;
+    p {
+      background-color: white;
+    }
+    img {
+      width: 100%;
+      margin: 0;
+    }
+  }
+  .siderbar {
+    width: 25%;
+  }
+}
 
 
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1040px) {
   .mainHeader {
     .headerTop {
       .pages {
@@ -125,6 +141,14 @@ body, p {
           display: none;
         }
       }
+    }
+  }
+  .middle {
+    .sidebar {
+      display: none;
+    }
+    .mainbar {
+      width: 100%;
     }
   }
 }

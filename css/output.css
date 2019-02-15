@@ -103,9 +103,33 @@ body, p {
   font-size: 20px;
 }
 
-@media screen and (max-width: 1023px) {
+.middle {
+  width: 100%;
+}
+.middle .mainbar {
+  width: 75%;
+}
+.middle .mainbar p {
+  background-color: white;
+}
+.middle .mainbar img {
+  width: 100%;
+  margin: 0;
+}
+.middle .siderbar {
+  width: 25%;
+}
+
+@media screen and (max-width: 1040px) {
   .mainHeader .headerTop .pages .hide1 {
     display: none;
+  }
+
+  .middle .sidebar {
+    display: none;
+  }
+  .middle .mainbar {
+    width: 100%;
   }
 }
 @media screen and (max-width: 979px) {
