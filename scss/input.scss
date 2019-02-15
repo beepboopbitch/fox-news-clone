@@ -1,15 +1,20 @@
 $fox-color: rgba(0,51,102,.99);
 $fox-red: #d20f26;
 
-body, p {
-  margin: 0;
-  padding: 0;
-  background-color: lightgray;
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
 }
 
 // * {
 //   border: 1px solid red;
 // }
+
+body, p {
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
 
 .mainHeader {
   height: 85px;
@@ -29,8 +34,7 @@ body, p {
     height: 100%;
   }
   .headerTop {
-    display: flex;
-    flex-direction: row;
+    @include flex-row;
     justify-content: space-between;
     align-items: center;
     height: 50%;
@@ -49,8 +53,7 @@ body, p {
   }
   .headerBottom {
     background-color: white;
-    display: flex;
-    flex-direction: row;
+    @include flex-row;
     align-items: center;
     height: 50%;
     padding-left: 120px;
@@ -115,10 +118,9 @@ body, p {
 }
 
 .middle {
+  @include flex-row;
   margin-top: 20px;
   width: 100%;
-  display: flex;
-  flex-direction: row;
   .west {
     border: 1px solid lightblue;
     margin-top: 20px;
@@ -164,8 +166,7 @@ body, p {
         font-weight: bold;
       }
       .img-item {
-        display: flex;
-        flex-direction: row;
+        @include flex-row;
         border-bottom: 1px solid lightblue;
         padding: 10px 0 10px 0;
         img {

@@ -104,10 +104,10 @@ body, p {
 }
 
 .middle {
-  margin-top: 20px;
-  width: 100%;
   display: flex;
   flex-direction: row;
+  margin-top: 20px;
+  width: 100%;
 }
 .middle .west {
   border: 1px solid lightblue;
