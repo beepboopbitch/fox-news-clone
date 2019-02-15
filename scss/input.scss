@@ -7,9 +7,9 @@ body, p {
   background-color: lightgray;
 }
 
-// * {
-//   border: 1px solid red;
-// }
+* {
+  border: 1px solid red;
+}
 
 .mainHeader {
   height: 85px;
@@ -116,16 +116,21 @@ body, p {
 
 .middle {
   width: 100%;
+  display: flex;
+  flex-direction: row;
   .mainbar {
     width: 75%;
-    p {
-      background-color: white;
-    }
-    img {
-      width: 100%;
-      margin: 0;
-    }
+    margin: 0 10px 0 10px;
   }
+  p {
+    background-color: white;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+.middle {
   .siderbar {
     width: 25%;
   }
@@ -184,6 +189,5 @@ body, p {
   .headerSmall {
     display: block;
     display: flex;
-
   }
 }
