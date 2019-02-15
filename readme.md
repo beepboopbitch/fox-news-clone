@@ -10,7 +10,7 @@ _A webpage that mimics the look of a fox news webpage at several sizes using med
 
 ## My clone:
 
-![](Screen Shot 2019-02-15 at 1.16.00 PM)
+![](img/clonefoxnews.png)
 
 ## Setup
 
