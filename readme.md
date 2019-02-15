@@ -8,6 +8,10 @@
 
 _A webpage that mimics the look of a fox news webpage at several sizes using media queries._
 
+## My clone:
+
+![](Screen Shot 2019-02-15 at 1.16.00 PM)
+
 ## Setup
 
 * _Clone this repository_
