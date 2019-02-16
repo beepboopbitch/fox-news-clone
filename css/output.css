@@ -135,7 +135,7 @@ body, p {
   grid-gap: 10px;
 }
 .middle .mainbar {
-  width: 75%;
+  width: 70%;
   margin: 0 5px 0 10px;
 }
 .middle .mainbar .weather {
@@ -152,12 +152,15 @@ body, p {
   font-size: 30px;
 }
 .middle .sidebar {
-  border: 1px solid lightblue;
-  margin: 120px 10px 450px 5px;
-  width: 25%;
-  background-color: white;
+  margin: 80px 10px 50px 5px;
+  width: 30%;
+}
+.middle .sidebar .ad2 {
+  margin-bottom: 30px;
 }
 .middle .sidebar .img-container {
+  background-color: white;
+  border: 1px solid lightblue;
   padding: 10px 10px 10px 10px;
 }
 .middle .sidebar .img-container p {
