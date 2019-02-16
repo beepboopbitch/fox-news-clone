@@ -11,7 +11,6 @@ body, p {
   padding: 0;
   background-color: lightgray;
 }
-
 .mainHeader {
   height: 85px;
   border-top: 4px solid $fox-red;
@@ -69,7 +68,6 @@ body, p {
     }
   }
 }
-
 .buttons {
   .fas {
     color: white;
@@ -95,7 +93,6 @@ body, p {
     padding: 7px 10px 7px 10px;
   }
 }
-
 .headerSmall {
   display: none;
   width: 100%;
@@ -112,7 +109,6 @@ body, p {
     font-size: 20px;
   }
 }
-
 .ad {
   margin-top: 20px;
   display: flex;
@@ -121,7 +117,6 @@ body, p {
     border: 1px solid black;
   }
 }
-
 .middle {
   @include flex-row;
   margin-top: 20px;
@@ -199,7 +194,6 @@ body, p {
     width: 100%;
   }
 }
-
 .bottom {
   background-color: $fox-color;
   margin-top: 50px;
@@ -221,7 +215,6 @@ body, p {
     }
   }
 }
-
 @media screen and (max-width: 1040px) {
   .mainHeader {
     .headerTop {
@@ -256,7 +249,6 @@ body, p {
     display: none;
   }
 }
-
 @media screen and (max-width: 979px) {
   .mainHeader {
     .headerTop {
@@ -268,7 +260,6 @@ body, p {
     }
   }
 }
-
 @media screen and (max-width: 879px) {
   .mainHeader {
     .headerTop {
@@ -280,7 +271,6 @@ body, p {
     }
   }
 }
-
 @media screen and (max-width: 767px) {
   .mainHeader {
     display: none;
